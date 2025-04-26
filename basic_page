@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Título: Coding</title>
+</head>
+<body>
+    <h1 id="home">Aprendiendo HTML5</h1>
+    <!--Esta sección es del menú-->
+    <!--<nav>
+        <a href="#"><p>NAME</p></a>
+    </nav>-->
+    <nav>
+        <a href="#intro"><p>Introducción</p></a>
+        <a href="#tags"><p>Etiquetas</p></a>
+        <a href="#links"><p>Enlaces</p></a>
+        <a href="#list"><p>Listas</p></a>
+    </nav>
+
+    <h2 id="intro">Introducción</h2>
+
+        <img src="recursos/amarillo.jpg" alt="viaje" usemap="#mimapa" title="amarillo">
+    
+    <map name="mimapa">
+        <area shape="circle" coords="434,184,49" target="_blank" href="https://www.amazon.com/-/es/IMUSA-platillos-Espresso-piezas-estante/dp/B0D9YTGF9K/ref=sr_1_1?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=K9KFXOJUQPLZ&dib=eyJ2IjoiMSJ9.GZ0vld04H8qYyUtLUx-g3FyShfeUisvevvPcdAPGfp-dKW-LS5VOrlPOzrZ12Po99lnACj180-M5vY-NkGmdagqDSH-2faHjPrHxc3Ms8X4aHu_ofjcpASG37-AdsruL_YdapcRvVY6LWSKaTXfRI8zDTjKgdG7lY7MM3MN3ZwUsDzok74LU48NFAx3psRbOGdL_NOH6bl5Tacth-DxdFiisU6yZrCQFTfm83OR8UD7edZvbLFJVSfjCx5AWFEdcDjhH8o1BC8fQe8gBjyWas4bN0yAQKiLKNs9EJ_6Gv6Ejpjt91alVLumsXRf8ZGVqxJw6MhtWro007PZK0S2Ut_mL5vkmJJ12WVM_kQcKNwpmMcrs5r9qSLpZV9QCG_RZ2_QW_uZEXMk-ycrA3RQjQFCEw5L7o53cKHA27RU-cso1_d7FrRVBl1KigaP3tncl.D_izxK5T26h9lHNyP8Cc2hoMe1moxYlsE4QepeRl1kY&dib_tag=se&keywords=tasas&qid=1736869002&sprefix=tasas%2Caps%2C157&sr=8-1&th=1" alt="Tazas">
+
+        <area shape="rect" coords="483,51,612,307" target="_blank" href="https://www.amazon.com/-/es/Funda-Samsung-Galaxy-pulgadas-Blanco/dp/B00JKCH4V2/ref=sr_1_8?dib=eyJ2IjoiMSJ9.mm-svetuXdGJikUCt91Kt6zN2_flWyPdMBRJF-w_mPsu9P9wtTa2FVrJY8VBWFJ982ST3_1WAnmRz55m8KUvtwGbg4YfMsJqHSVTfnjsSzKlXQwTe6ICASVvHYz8t67FkVzLkcShDyCHepa3mkxQ18MtrMtlAZPgZXkNBzUU4KOWoFnxeX_iIINiVvku-_Ckw95jEIPBp-V_-zDg-MMGES58e23_V98sv69XiYQhkFiFmj6WijcCxpbqzMDyLq37ltIJxaPmjB-GLeXaRTifbmeDAws439_iXU1494Z0gRFAOjycFDX5dRSP3oyzmHfp.FmxypsdgKqYCiV6aJduMqHqRahmXh1vNKWH1gekh2jI&dib_tag=se&qid=1736891265&refinements=p_n_feature_twenty_browse-bin%3A2972996011&s=pc&sr=1-8" alt="Tablet">
+
+        <area shape="poly" coords="517,5,512,12,516,17,526,18,532,21,538,28,548,30,555,30,562,34,561,45,567,47,576,46,585,46,596,46,603,47,617,59,610,50,618,68,617,77,617,87,618,98,621,115,634,124,645,126,675,133,690,120,699,105,698,4,683,0,651,0,617,1,584,1,563,1,552,1,546,0,529,1,524,4,547,1" target="_blank" href="https://www.amazon.com/-/es/entero-org%C3%A1nico-Footprint-tostado-ligero/dp/B003D331B6/ref=sr_1_15?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.JzUKORwpTMG4eVAJvQJtQqCcWvKjAGKV2bJPD45UaZA-8nxmOVQFDekqp2zZdqC1Gh6f7EP8Me2skao3PWMj9htItmp7XVCytuVFQCN4W_a7IhMOjejxK_MjAOP9KDqtmXQSST3RM9aR3QhWxCrdgO1l5sZvgxjh9SyNNTkQ5wfqdkZWye8jhSUrIgAhEZyEhbE-tRR4fiVuzCJlufWBzfXJtnne6Y8t0oNmYiZAMBXlUt_oPLlCMdJmoIamw9pN7LqQ2J-yHr2XnotvTr9RWA7KxN6UYRKZh_tfobrSNmAu--tDuxwG5MvV67WMKB3rjYzXQz4ob2jHcteJQHs_CqbcE3s1HUb3QJpuBwNrZeI.5OOB73AeQWn76CpOcLU9yXdk_s51vK6uG4qZ0m58gc4&dib_tag=se&keywords=granos+de+cafe&qid=1736891890&s=grocery&sr=1-15" alt="cafe">
+
+        <area shape="poly" coords="495,34,499,38,506,36,507,30,503,23,495,23,493,28,489,32,504,34,499,38,495,34,489,32,493,28,495,23,503,25,503,23" target="_blank" href="https://www.amazon.com/-/es/entero-org%C3%A1nico-Footprint-tostado-ligero/dp/B003D331B6/ref=sr_1_15?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.JzUKORwpTMG4eVAJvQJtQqCcWvKjAGKV2bJPD45UaZA-8nxmOVQFDekqp2zZdqC1Gh6f7EP8Me2skao3PWMj9htItmp7XVCytuVFQCN4W_a7IhMOjejxK_MjAOP9KDqtmXQSST3RM9aR3QhWxCrdgO1l5sZvgxjh9SyNNTkQ5wfqdkZWye8jhSUrIgAhEZyEhbE-tRR4fiVuzCJlufWBzfXJtnne6Y8t0oNmYiZAMBXlUt_oPLlCMdJmoIamw9pN7LqQ2J-yHr2XnotvTr9RWA7KxN6UYRKZh_tfobrSNmAu--tDuxwG5MvV67WMKB3rjYzXQz4ob2jHcteJQHs_CqbcE3s1HUb3QJpuBwNrZeI.5OOB73AeQWn76CpOcLU9yXdk_s51vK6uG4qZ0m58gc4&dib_tag=se&keywords=granos+de+cafe&qid=1736891890&s=grocery&sr=1-15" alt="cafe">
+
+        <area shape="poly" coords="626,129,624,143,634,143,644,147,652,149,664,145,663,132,647,132,637,131,632,130,628,130" target="_blank" href="https://www.amazon.com/-/es/entero-org%C3%A1nico-Footprint-tostado-ligero/dp/B003D331B6/ref=sr_1_15?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.JzUKORwpTMG4eVAJvQJtQqCcWvKjAGKV2bJPD45UaZA-8nxmOVQFDekqp2zZdqC1Gh6f7EP8Me2skao3PWMj9htItmp7XVCytuVFQCN4W_a7IhMOjejxK_MjAOP9KDqtmXQSST3RM9aR3QhWxCrdgO1l5sZvgxjh9SyNNTkQ5wfqdkZWye8jhSUrIgAhEZyEhbE-tRR4fiVuzCJlufWBzfXJtnne6Y8t0oNmYiZAMBXlUt_oPLlCMdJmoIamw9pN7LqQ2J-yHr2XnotvTr9RWA7KxN6UYRKZh_tfobrSNmAu--tDuxwG5MvV67WMKB3rjYzXQz4ob2jHcteJQHs_CqbcE3s1HUb3QJpuBwNrZeI.5OOB73AeQWn76CpOcLU9yXdk_s51vK6uG4qZ0m58gc4&dib_tag=se&keywords=granos+de+cafe&qid=1736891890&s=grocery&sr=1-15" alt="cafe">
+
+        <area shape="poly" coords="624,152,629,150,638,152,642,158,647,163,653,166,662,164,672,164,680,162,684,168,684,176,679,181,669,182,660,182,657,189,649,189,643,182,649,176,642,173,634,172,634,163,627,162,621,158,624,152" target="_blank" href="https://www.amazon.com/-/es/entero-org%C3%A1nico-Footprint-tostado-ligero/dp/B003D331B6/ref=sr_1_15?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.JzUKORwpTMG4eVAJvQJtQqCcWvKjAGKV2bJPD45UaZA-8nxmOVQFDekqp2zZdqC1Gh6f7EP8Me2skao3PWMj9htItmp7XVCytuVFQCN4W_a7IhMOjejxK_MjAOP9KDqtmXQSST3RM9aR3QhWxCrdgO1l5sZvgxjh9SyNNTkQ5wfqdkZWye8jhSUrIgAhEZyEhbE-tRR4fiVuzCJlufWBzfXJtnne6Y8t0oNmYiZAMBXlUt_oPLlCMdJmoIamw9pN7LqQ2J-yHr2XnotvTr9RWA7KxN6UYRKZh_tfobrSNmAu--tDuxwG5MvV67WMKB3rjYzXQz4ob2jHcteJQHs_CqbcE3s1HUb3QJpuBwNrZeI.5OOB73AeQWn76CpOcLU9yXdk_s51vK6uG4qZ0m58gc4&dib_tag=se&keywords=granos+de+cafe&qid=1736891890&s=grocery&sr=1-15" alt="cafe">
+
+    </map>
+    <p></p>
+    <img src="recursos/programando.gif" alt="programando" width="300" title="programando">
+    <p><a href="archivo.rar">Descargar</a></p>
+
+    <p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing</strong> elit. <br> Molestiae ut sit <a target="_blank" href="https://www.wikipedia.org/">excepturi</a> vero quia ea, corporis et ad nisi magni iste. Odio <b>temporibus</b> maiores esse optio explicabo voluptatum unde quaerat <i>obcaecati</i>.</p>
+        
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet eaque fugit natus laborum quia, labore dolore ducimus ipsam. Corporis obcaecati quia voluptatem quaerat ut! <a href="segundapagina.html">Dolore</a> <a href="recursos/tercerapagina.html">repellendus</a> quas cupiditate provident <em>similique</em>?</p>
+    
+    <h2>Tabla</h2>
+
+    <table border="1">
+        <caption>Mi horario</caption>
+        <tr>
+            <th colspan="5">HORARIO</th>
+            <th colspan="2">Fin de semana</th>
+        </tr>
+        <tr> 
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+        </tr>
+
+        <tr>
+            <td rowspan="3">Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Descansar</td>
+            <td>Descansar</td>
+        </tr>
+
+        <tr>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Descansar</td>
+            <td>Descansar</td>
+        </tr>
+
+        <tr>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Programar</td>
+            <td>Descansar</td>
+            <td>Descansar</td>
+        </tr>
+
+        
+    </table>
+
+    <h2 id="tags">Etiquetas</h2>
+    <!--Esta sección es el lista-->
+    <ul>
+        <li>Item</li>
+        <li>Item</li>
+        <ul>
+            <li>Item</li>
+            <li>Item</li>
+            <ul type="circle">
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li> 
+            </ul>
+            <li>Item</li> 
+        </ul>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+
+    <ul type="none">
+        <li>Item</li>
+        <li>Item</li>
+        <ul>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li> 
+        </ul>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+
+    <ol type="1">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+
+    <ol type="I">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+
+    <p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing</strong> elit. <br> Molestiae ut sit vero quia ea, corporis et ad nisi magni iste. Odio <b>temporibus</b> maiores esse optio explicabo voluptatum unde quaerat <i>obcaecati</i>.</p>
+        
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet eaque fugit natus laborum quia, labore dolore ducimus ipsam. Corporis obcaecati quia voluptatem quaerat ut! Dolore repellendus quas cupiditate provident <em>similique</em>?</p>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML es Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa nobis illo, dicta iure fuga optio alias architecto eos reiciendis quisquam dolorum nisi, debitis reprehenderit totam laborum minima aut expedita exercitationem.</dd>
+        <dt>CSS</dt>
+        <dd>CSS es Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam laboriosam aliquid voluptatum, cumque praesentium dicta consequatur, natus inventore deleniti aut voluptatem numquam tempore omnis doloribus beatae accusantium repellat excepturi minima.</dd>
+        <dt>Javascript</dt>
+        <dd>Javascript es Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae soluta architecto illum aperiam quaerat molestiae eaque quam cum error magni odit adipisci maxime quod, ab facilis voluptates quia quo totam!</dd>
+    </dl>
+
+    <h2 id="links">Enlaces</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing</strong> elit. <br> Molestiae ut sit vero quia ea, corporis et ad nisi magni iste. Odio <b>temporibus</b> maiores esse optio explicabo voluptatum unde quaerat <i>obcaecati</i>.</p>
+        
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet eaque fugit natus laborum quia, labore dolore ducimus ipsam. Corporis obcaecati quia voluptatem quaerat ut! Dolore repellendus quas cupiditate provident <em>similique</em>?</p>
+
+    <h2 id="list">Listas</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur <strong>adipisicing</strong> elit. <br> Molestiae ut sit vero quia ea, corporis et ad nisi magni iste. Odio <b>temporibus</b> maiores esse optio explicabo voluptatum unde quaerat <i>obcaecati</i>.</p>
+        
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet eaque fugit natus laborum quia, labore dolore ducimus ipsam. Corporis obcaecati quia voluptatem quaerat ut! Dolore repellendus quas cupiditate provident <em>similique</em>?</p>
+    <a href="#home">Inicio</a>
+</body>
+</html>
